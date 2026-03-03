@@ -1,16 +1,36 @@
-# React + Vite
+# React Lab (lab01)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: [https://projektreact-lab.vercel.app](https://projektreact-lab.vercel.app?_vercel_share=AS66rdzpA9scRbwEgYNi9F2Pb452VvPw)
 
-Currently, two official plugins are available:
+## O projekcie
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projekt to aplikacja internetowa rozwijana w ramach zajęć uczelnianych. Została zbudowana z wykorzystaniem nowoczesnych technologii frontendowych.
 
-## React Compiler
+### Wykorzystane technologie
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **React 19** - biblioteka do budowy interfejsów użytkownika
+*   **Next.js 16** - popularny framework do aplikacji React
+*   **React Router** - do m.in. zarządzania routingiem wewnątrz aplikacji
+*   **Firebase** - platforma backend-as-a-service wykorzystywana w projekcie m.in. do bazy danych / autoryzacji
+*   **Bootstrap / React-Bootstrap** - biblioteki do stylowania aplikacji z gotowymi, responsywnymi komponentami UI
 
-## Expanding the ESLint configuration
+## Uruchomienie lokalne
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Aby uruchomić projekt lokalnie, zainstaluj najpierw zależności (o ile nie zostały jeszcze zainstalowane):
+   ```bash
+   npm install
+   ```
+
+2. Następnie uruchom serwer deweloperski:
+   ```bash
+   npm run dev
+   ```
+
+3. Aplikacja powinna być dostępna w przeglądarce pod adresem `http://localhost:3000`.
+
+## Skrypty
+
+- `npm run dev` - uruchamia aplikację w trybie deweloperskim
+- `npm run build` - buduje zoptymalizowaną wersję produkcyjną aplikacji
+- `npm start` - uruchamia skompilowaną aplikację na środowisku produkcyjnym
+- `npm run lint` - wykonuje linter (ESLint) w celu sprawdzenia poprawności kodu
