@@ -1,0 +1,11 @@
+"use client";
+
+import dynamic from 'next/dynamic';
+
+const AppWrapper = dynamic(() => import('../../AppWrapper'), {
+    ssr: false,
+});
+
+export default function CatchAllPage() {
+    return <AppWrapper />;
+}

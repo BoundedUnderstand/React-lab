@@ -10,27 +10,27 @@ import AppReducer from './data/AppReducer';
 import { useFetchData } from './data/useAppState';
 
 // Importy podstawowych stron
-import Home from './pages/Home';
-import Lab01 from './pages/Lab01';
-import Lab02 from './pages/Lab02';
-import Lab03 from './pages/Lab03';
-import Lab05Page from './pages/Lab05Page';
-import NotFound from './pages/NotFound';
-import Login from './pages/Login';
-import UserPage from './pages/UserPage';
-import PostPage from './pages/PostPage';
-import CommentsPage from './pages/CommentsPage';
+import Home from './views/Home';
+import Lab01 from './views/Lab01';
+import Lab02 from './views/Lab02';
+import Lab03 from './views/Lab03';
+import Lab05Page from './views/Lab05Page';
+import NotFound from './views/NotFound';
+import Login from './views/Login';
+import UserPage from './views/UserPage';
+import PostPage from './views/PostPage';
+import CommentsPage from './views/CommentsPage';
 
 // Importy Quizu
-import QuizList from './pages/QuizList';
-import QuizApp from './pages/QuizApp';
-import AboutMe from './pages/AboutMe';
+import QuizList from './views/QuizList';
+import QuizApp from './views/QuizApp';
+import AboutMe from './views/AboutMe';
 import ProtectedRoute from './components/ProtectedRoute';
-import QuizDashboard from './pages/QuizDashboard';
-import QuizCreation from './pages/QuizCreation';
-import QuizEdit from './pages/QuizEdit';
+import QuizDashboard from './views/QuizDashboard';
+import QuizCreation from './views/QuizCreation';
+import QuizEdit from './views/QuizEdit';
 
-import ComponentGallery from './pages/ComponentGallery';
+import ComponentGallery from './views/ComponentGallery';
 
 const initialState = {
     items: [],

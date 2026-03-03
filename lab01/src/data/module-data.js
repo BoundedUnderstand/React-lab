@@ -5,36 +5,36 @@ export const people = [
   {
     "id": 1,
     "name": "Karol",
-    "birthDate": "2004-05-27",
+    "birthDate": "1986-06-16",
     "email": "karol1@wsei.edu.pl",
-    "phone": "788-625-650"
+    "phone": "708-859-068"
   },
   {
     "id": 2,
-    "name": "Cezary",
-    "birthDate": "1992-03-16",
-    "email": "cezary2@wsei.edu.pl",
-    "phone": "211-504-063"
+    "name": "Daniel",
+    "birthDate": "1982-03-14",
+    "email": "daniel2@wsei.edu.pl",
+    "phone": "060-504-163"
   },
   {
     "id": 3,
-    "name": "Hanna",
-    "birthDate": "2000-03-27",
-    "email": "hanna3@wsei.edu.pl",
-    "phone": "654-829-627"
+    "name": "Adam",
+    "birthDate": "1999-08-07",
+    "email": "adam3@wsei.edu.pl",
+    "phone": "854-528-138"
   },
   {
     "id": 4,
-    "name": "Cezary",
-    "birthDate": "1987-01-11",
-    "email": "cezary4@wsei.edu.pl",
-    "phone": "617-840-693"
+    "name": "Ewelina",
+    "birthDate": "1993-11-13",
+    "email": "ewelina4@wsei.edu.pl",
+    "phone": "520-222-741"
   },
   {
     "id": 5,
-    "name": "Julia",
-    "birthDate": "1995-08-25",
-    "email": "julia5@wsei.edu.pl",
-    "phone": "078-890-404"
+    "name": "Ewa",
+    "birthDate": "1997-10-08",
+    "email": "ewa5@wsei.edu.pl",
+    "phone": "700-572-444"
   }
 ];

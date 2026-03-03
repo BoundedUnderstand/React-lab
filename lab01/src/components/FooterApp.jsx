@@ -5,7 +5,7 @@ const FooterApp = () => {
     <footer className="footer mt-auto py-3 bg-light border-top">
       <div className="container d-flex justify-content-between align-items-center">
         <span className="text-muted">
-          <img src="data/images/wsei-logo-svg (1).svg" alt="Logo Uczelni" style={{ height: '50px', marginRight: '10px' }} />
+          <img src="/data/images/wsei-logo-svg (1).svg" alt="Logo Uczelni" style={{ height: '50px', marginRight: '10px' }} />
 
         </span>
 
