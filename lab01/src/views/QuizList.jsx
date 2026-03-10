@@ -40,7 +40,14 @@ const QuizList = () => {
                                     <div className="card-body p-4 text-center">
                                         <div className="mb-3" style={{ height: '160px', overflow: 'hidden', borderRadius: '8px' }}>
                                             <img
-                                                src={`https://picsum.photos/seed/${encodeURIComponent(category)}/400/300`}
+                                                src={
+                                                    {
+                                                        'Bazy Danych': 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400&q=80',
+                                                        'JavaScript': 'https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=400&q=80',
+                                                        'React': 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=400&q=80',
+                                                        'Sieci Komputerowe': 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=400&q=80',
+                                                    }[category] || `https://picsum.photos/seed/${encodeURIComponent(category)}/400/300`
+                                                }
                                                 alt={`Kategoria ${category}`}
                                                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                                 crossOrigin="anonymous"
