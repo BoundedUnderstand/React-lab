@@ -38,8 +38,13 @@ const QuizList = () => {
                             <Link to={`/quiz/play/${encodeURIComponent(category)}`} className="text-decoration-none">
                                 <div className="card h-100 border-0 shadow-sm quiz-card-hover" style={{ transition: 'transform 0.2s, box-shadow 0.2s' }}>
                                     <div className="card-body p-4 text-center">
-                                        <div className="display-4 mb-3 text-primary">
-                                            📝
+                                        <div className="mb-3" style={{ height: '160px', overflow: 'hidden', borderRadius: '8px' }}>
+                                            <img
+                                                src={`https://picsum.photos/seed/${encodeURIComponent(category)}/400/300`}
+                                                alt={`Kategoria ${category}`}
+                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                                crossOrigin="anonymous"
+                                            />
                                         </div>
                                         <h4 className="card-title fw-bold text-dark mb-2">
                                             {category}
